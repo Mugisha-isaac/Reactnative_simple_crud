@@ -50,7 +50,6 @@ const dataReducer = (
       if (index !== -1) clone.splice(index, 1);
       return { ...state, quotes: clone };
     }
-
     default:
 
     return state;
